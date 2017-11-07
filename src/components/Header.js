@@ -17,7 +17,7 @@ const Header = ({ bsStyle, instructor, logo, cohort }) => {
       <Navbar.Collapse>
         <Navbar.Text>
           <Link to="/">
-            Instructor: <Navbar.Link>{ instructor }</Navbar.Link>
+            <Navbar.Link>{ instructor }</Navbar.Link>
           </Link>
         </Navbar.Text>
         <Navbar.Text pullRight>

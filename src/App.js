@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div>
         <Header logo={ logo }
-                instructor="Roberto Ortega"
+                instructor="Instructor: Roberto Ortega"
                 cohort="g55" />
         <Footer />
       </div>
