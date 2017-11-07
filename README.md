@@ -1,35 +1,26 @@
 # gAttendance - The Galvanize Attendance Tracker
 
-## Table of Contents
+[gAttendance](https://gAttendance.surge.sh) is an attendance tracking app designed with Galvanize instructors in mind. The app was built to accurately track student attendance using RFID cards while saving time that would be lost to a manual tracking system. Additionally, instructors have access to a dashboard with persistent, real-time data and several filtering options.
 
-# 1) Overview and Getting Started
+## Built With
 
-# 2) Technology
+* [React](https://reactjs.org/) - The frontend framework used
+* [Bootstrap](https://react-bootstrap.github.io/) - The CSS framework used
+* [Go Lang](https://golang.org/) - The backend language used
+* [PostgreSQL](https://www.postgresql.org/) - The DMBS used
+* [RaspberryPi](https://www.raspberrypi.org/) - The internet connected device used with an RFID reader and linux
 
-# 3) How to Use
+## Authors
 
-# 4) Authors
-
-# Overview
-
-gAttendance is an attendance tracking app designed with Galvanize instructors in mind. The app was built to accurately track student attendance using RFID cards while saving time that would be lost to a manual tracking system. Additionally, instructors have access to a dashboard with persistent, real-time data and several filtering options.
-
-## Technology
-
-The gAttendance client uses React as a framework and JavaScript.
+* [Tyler Keesling](https://github.com/tylerkeesling)
+* [Nick Nasky](https://github.com/NickNasky)
+* [Trenton Wuerker](https://github.com/Jae-Holderby)
+* [Jae Holderby](https://github.com/Jae-Holderby)
+* [Cody Duskin](https://github.com/bestcodyever)
 
 ## How To Use
 
 The gAttendance client is essentially plug-and-play. Once the Pi is hooked up and the back-end is seeded, the instructor dashboard should require no setup!
 
-## Authors
-
-[Nick Nasky](https://github.com/NickNasky)
-
-[Trenton Wuerker](https://github.com/Jae-Holderby)
-
-[Jae Holderby](https://github.com/Jae-Holderby)
-
-[Chody Duskin](https://github.com/bestcodyever)
-
-[Tyler Keesling](https://github.com/tylerkeesling)
+* See it in action! Sorry, no RaspberryPi to show :(
+  ![tracker](/demo/tracker.gif)
